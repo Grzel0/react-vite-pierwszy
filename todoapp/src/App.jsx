@@ -1,11 +1,11 @@
 import './App.css'
-import ToDO from './ToDo'
+import ProductForm from './ProductForm'
 
 function App() {
 
   return (
     <>
-    <ToDO />
+    <ProductForm />
     </>
   )
 }

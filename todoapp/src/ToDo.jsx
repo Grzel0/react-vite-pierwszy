@@ -16,6 +16,13 @@ const ToDO = ()=>{
         const newTasks = todos.filter( (t) => t.id !== taskId)
         setToDos(newTasks)
     }
+    function addTaskHandler(){
+        let newTask={
+            id: Math.random().toString().substring(),
+            text: "Nowe zadanie do zrobienia"
+        }
+    }
+    
     return(
         <>
         <h1>Jestem z komponentu ToDo</h1>
@@ -31,6 +38,7 @@ const ToDO = ()=>{
                 )) 
             }
         </ul>
+        <button style={ {margin:"10px", backgroundColor:"red"} } onClick={addTaskHandler}>Dodaj nbowe zadanie</button>
         </>
     )
     

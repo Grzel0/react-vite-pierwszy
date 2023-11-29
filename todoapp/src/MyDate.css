@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 8px;
+}
+
+.datestyle{
+    font-size: 14px;
+    margin: 5px;
+}
+
+.timestyle{
+    font-size: 14px;
+    margin: 5px;
+}
